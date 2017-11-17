@@ -313,7 +313,7 @@ program
     });
 
 try {
-    const jestModule = require(`vitaminjs-jest`);
+    const jestModule = require('vitaminjs-jest');
     jestModule.registerCommand(program);
 } catch (e) {
     if (e.code !== 'MODULE_NOT_FOUND') {
